@@ -7,7 +7,7 @@ function Unxpired()
     return <div className='unxpiredStyle'>     
                 <div className='titleContainer'>
                     <div className='titleStyle'>unXpired</div>
-                    <div className='techStyle'><i>( Python, Django, Rest Api, React Native, Redux Toolkit, Sqlite )</i></div>
+                    <div className='techStyle'><i>( Python, Django, Rest Api, React Native, Redux Toolkit, SQLite )</i></div>
                 </div>
                 
                 <div className='contentContainer'>
