@@ -42,7 +42,7 @@ display: inline-block;
     color: #fdbc00;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 576px) and (max-width: 768px){
     .icons-list {
     text-align: center;
     margin-left: 5%;
@@ -62,4 +62,17 @@ display: inline-block;
     z-index: 1;
         
     }
+}
+
+@media (min-width: 1500px) {
+
+    .icons-list {
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 85%;
+        position: relative;
+        z-index: 1;
+            
+        }
+
 }
