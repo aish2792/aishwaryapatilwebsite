@@ -9,6 +9,7 @@ import LoanPrediction from './components/LoanPrediction';
 import Kaleidoscope from './components/Kaleidoscope';
 import MovieReviews from './components/MovieReviews';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 
 
@@ -19,14 +20,15 @@ function App() {
     <Router>
       <div className="App" style={{display: 'flex', flexDirection: 'column', flex: 1}}>
 
-        <Header />
-        <Route path='/' exact component={Introduction}/>
-        <Route path='/' exact component={Experience}/>
+        {/* <Header /> */}
+        <Route path='/' exact component={AboutMe}/>
+        {/* <Route path='/' exact component={Experience}/> */}
+        <Route path='/Projects' component={Projects}/>
         <Route path='/Unxpired' component={Unxpired}/>
         <Route path='/LoanPrediction' component={LoanPrediction}/>
         <Route path='/Kaleidoscope' component={Kaleidoscope}/>
         <Route path='/MovieReviews' component={MovieReviews}/>
-        <Route path='/aboutme' component={AboutMe}/>
+        {/* <Route path='/aboutme'   component={AboutMe}/> */}
         <Footer />
 
     </div>
