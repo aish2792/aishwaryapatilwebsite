@@ -1,0 +1,46 @@
+.introStyle {
+    display: flex;
+    flex: 2;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 2%;
+    
+}
+
+.h3text {
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: bold;
+    color: #bababa;
+    flex: 1;
+
+}
+
+.h4text {
+    font-size: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: black;
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    .h4text {
+        font-size: 30px;
+      
+      
+    }
+
+    .introStyle {
+        
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 2%;
+        
+    }
+    
+  
+  }

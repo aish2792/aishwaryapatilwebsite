@@ -1,0 +1,54 @@
+.app-link {
+    color: #fff;
+  }
+.app-link:hover {
+color: #bababa;
+}
+
+.social-media-list {
+display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    position: relative;
+    list-style: none;
+    padding: 3px;
+    cursor: pointer;
+    flex-direction: row;
+    flex: 1
+    
+    }
+
+.icons-list {
+    text-align: center;
+    padding: 20px;
+    margin-left: 37%;
+    margin-top: 49%;
+    position: fixed;
+    z-index: 1;
+    
+    }
+
+.footerNote {
+    color: #696969;
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.iconStyle {
+    color: #696969;
+}
+
+.iconStyle:hover {
+    color: #fdbc00;
+}
+
+@media (max-width: 800px) {
+    .icons-list {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: -2%;
+    position: relative;
+    z-index: 1;
+        
+    }
+}
