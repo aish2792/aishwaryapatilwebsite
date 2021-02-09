@@ -64,7 +64,7 @@ display: inline-block;
     }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 3280px) {
 
     .icons-list {
         text-align: center;
