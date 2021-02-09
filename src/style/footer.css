@@ -24,7 +24,9 @@ display: inline-block;
     margin-left: 37%;
     margin-top: 49%;
     position: fixed;
+    /* padding-top: 5%; */
     z-index: 1;
+    background-color: magenta;
     
     }
 
@@ -49,6 +51,7 @@ display: inline-block;
     margin-top: -2%;
     position: relative;
     z-index: 1;
+    background-color: green;
         
     }
 }
@@ -60,6 +63,7 @@ display: inline-block;
     margin-top: -2%;
     position: relative;
     z-index: 1;
+    background-color: yellow;
         
     }
 }
@@ -72,6 +76,8 @@ display: inline-block;
         margin-top: 85%;
         position: relative;
         z-index: 1;
+        background-color: blue;
+        padding-top: 5%;
             
         }
 
