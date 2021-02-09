@@ -52,3 +52,14 @@ display: inline-block;
         
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .icons-list {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: -2%;
+    position: relative;
+    z-index: 1;
+        
+    }
+}
