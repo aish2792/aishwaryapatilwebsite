@@ -10,10 +10,10 @@ function AboutMe()
                 <div className='resumeContainer'>
                         <div className='contentContainer'>
                                         <span>
-                                        <p className="h3text">Meet Aishwarya</p>
+                                        <p className="h3textabout">🙏 नमस्ते, I am Aishwarya!</p>
                                         </span>       
                                         <span>
-                                        <p className='contentText'>Hi there! I am an aspiring full-stack developer currently pursuing a Master’s in Computer Science at Drexel University.
+                                        <p className='contentText'> I am an aspiring full-stack developer currently pursuing a Master’s in Computer Science at Drexel University.
                                         Before coming to the US, I had been working at <a href="https://www.lntinfotech.com/" className='linkStyle1'><u className='underStyle'>L&T Infotech</u></a>, India as a Senior Test engineer and a business analyst, actively 
                                         participating in all the phases of Software Development LifeCycle including interacting with the clients on daily basis. </p>
                                         <p className='contentText'>
@@ -30,8 +30,14 @@ function AboutMe()
 
                         </div>
                         <div className='btnContainer'>
-
+                                <div className='btnStyle'>
                                         <a href={resume} className="buttonResume" download='Aishwarya_Patil_Resume'>Resumé</a> 
+                                </div>
+                                
+                                <div className='btnStyle'>
+                                        <a href="/Projects" className="buttonResume" >Projects</a> 
+                                </div>
+                                
                         
                         </div>
                 </div>     
