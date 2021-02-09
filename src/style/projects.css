@@ -1,0 +1,174 @@
+.wholeProjectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center;        */
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 4%;  
+
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleContainer {
+display: flex;
+padding-bottom: 50px;
+align-items: center;
+flex-direction: column;
+}
+
+.projectHeaderStyle {
+font-size: 30px;
+color:#fdbc00;
+font-weight: bold;
+font-family: 'Raleway';
+ 
+}
+
+.projectHeaderContainer {
+    padding: 1%;
+}
+
+.singleProjectContainer {
+    margin: 4%;
+}
+
+.projectContentContainer {
+    justify-content: flex-start;
+}
+
+.projectUnderline {
+    border-bottom: 2px dashed #fdbc00;
+    text-decoration: none;
+}
+
+.underHyperLink {
+    text-decoration: none;
+    color: black;
+}
+
+.underHyperLink:hover {
+    text-decoration: none;
+    color: #fdbc00;
+}
+
+.goHome {
+    text-decoration: none;
+    color: #fdbc00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.goHome:hover {
+    text-decoration: none;
+    color: #fdbc00;
+}
+
+.projectContentStyle {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    }
+
+.subtextStyle {
+font-size: 16px;
+color: black;
+font-family: 'Raleway';
+}
+
+.desctextStyle {
+font-size: 16px;
+color:#696969;
+font-family: 'Raleway';
+}
+
+
+.projectlinkStyle {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #696969;
+    font-family: 'Raleway';
+  
+}
+
+.projectlinkStyle:hover {
+    color: #fdbc00;
+    text-decoration: none;
+    
+    
+}
+
+
+@media (max-width: 700px) {
+    .wholeProjectContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center;        */
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 4%;  
+    
+    }
+
+    .singleProjectContainer {
+        margin: 5%;
+    }
+
+    .goHome {
+        text-decoration: none;
+        color: #fdbc00;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 4%;
+    }
+    
+    .goHome:hover {
+        text-decoration: none;
+        color: #fdbc00;
+    }
+
+
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .wholeProjectContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center;        */
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 4%;  
+    
+    }
+
+    .singleProjectContainer {
+        margin: 5%;
+    }
+
+
+    .goHome {
+        text-decoration: none;
+        color: #fdbc00;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 4%;
+    }
+    
+    .goHome:hover {
+        text-decoration: none;
+        color: #fdbc00;
+    }
+
+    
+    }
