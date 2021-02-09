@@ -99,7 +99,8 @@
 }
 
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) { */
+@media (min-width: 576px) and (max-width: 768px) {
     .aboutStyle {
         display: flex;
         flex-direction: column;
@@ -136,7 +137,8 @@
 
 }
 
-@media (min-width: 700px) and (max-width: 1024px) {
+/* @media (min-width: 700px) and (max-width: 1024px) { */
+    @media (min-width: 768px) and (max-width: 1024px) {
     .aboutStyle {
         display: flex;
         flex-direction: row;
@@ -170,3 +172,17 @@
     }
         
     }
+
+@media (min-width: 1500px) {
+
+    .aboutStyle {
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 100px;
+        padding-top: 15%;
+
+    }
+
+}
