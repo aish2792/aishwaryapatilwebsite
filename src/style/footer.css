@@ -44,7 +44,7 @@ display: inline-block;
     color: #fdbc00;
 }
 
-@media (min-width: 576px) and (max-width: 768px){
+@media (min-width: px) and (max-width: 768px){
     .icons-list {
     text-align: center;
     margin-left: 5%;
