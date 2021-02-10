@@ -1,16 +1,26 @@
 .aboutStyle {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px;*/
     margin-top: 100px;
+    /* background-color: pink; */
+}
+
+.container {
+    /* background-color: pink; */
+}
+
+.btnPaddStyle {
+    padding-top: 5%;
+    padding-bottom: 5%; 
 }
 
 .contentContainer {
-    display: flex;
+    /* display: flex;
     flex: 2;
     padding-right: 50px;
-    flex-direction: column;
+    flex-direction: column; */
 
 }
 
@@ -31,13 +41,15 @@
 
 
 .imageContainer{
-    display: flex;
-    flex: 1;
+    /* display: flex;
+    flex: 1; */
+    text-align: center;
+    /* padding: 5%; */
 }
 
 .imageStyle{
-    width: auto;
-    height: 500;
+    /* width: auto;
+    height: 500; */
 }
 
 .linkStyle1 {
@@ -62,13 +74,13 @@
 
 .btnContainer {
     padding-bottom: 10%;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     /* justify-content: center; */
 }
 
 .btnStyle {
-    padding-right: 5%;
+    padding-right: 3%;
 }
 
 .buttonResume {
@@ -100,7 +112,7 @@
 
 
 /* @media (max-width: 700px) { */
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
     .aboutStyle {
         display: flex;
         flex-direction: column;
@@ -135,10 +147,10 @@
 
 
 
-}
+} */
 
 /* @media (min-width: 700px) and (max-width: 1024px) { */
-    @media (min-width: 768px) and (max-width: 1024px) {
+    /* @media (min-width: 768px) and (max-width: 1024px) {
     .aboutStyle {
         display: flex;
         flex-direction: row;
@@ -185,4 +197,4 @@
 
     }
 
-}
+} */
