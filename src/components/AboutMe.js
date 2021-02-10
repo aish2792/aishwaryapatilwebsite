@@ -14,12 +14,12 @@ function AboutMe()
                                 
                         
                                 <p className='contentText'> I am an aspiring full-stack developer currently pursuing a Master’s in Computer Science at Drexel University.
-                                Before coming to the US, I had been working at <a href="https://www.lntinfotech.com/" className='linkStyle1'><u className='underStyle'>L&T Infotech</u></a>, India as a Senior Test engineer and a business analyst, actively 
-                                participating in all the phases of Software Development LifeCycle including interacting with the clients on daily basis. </p>
+                                Before coming to the US, I had been working at <a href="https://www.lntinfotech.com/" className='linkStyle1'><u className='underStyle'>L&T Infotech</u></a>, India as a Senior Test Engineer and a Business Analyst, actively 
+                                participating in all the phases of Software Development LifeCycle (SDLC) including interacting with the clients on daily basis. </p>
                                 <p className='contentText'>
-                                During my time there (2014 - 2019), being on the testing side of the SDLC, I realized I am fascinated by the way any 
-                                application is developed. The yearning to be on the creation side of the SDLC became the motivation behind pursuing my graduate degree. 
-                                With that hope coupled with excitement, I came to the US in 2019. In Fall 2020, I interned at <a href="https://seedstages.com/" className='linkStyle1'><u className='underStyle'>Seedstages</u></a> as a Full Stack Web Developer, working on the front-end features and a robust back-end for a mobile application.
+                                During my time there (2014 - 2019), being on the testing side of the SDLC, I realized I am fascinated by the way the 
+                                software products are developed. The yearning to be on the creation side of the SDLC became the motivation behind pursuing my graduate degree. 
+                                With that hope coupled with excitement, I came to the US in 2019. In Fall 2020, I interned at <a href="https://seedstages.com/" className='linkStyle1'><u className='underStyle'>Seedstages</u></a> as a full-stack web developer, working on the front-end features and a robust back-end for a mobile application.
                                 
                                 </p>
                                 <p className='contentText'>
