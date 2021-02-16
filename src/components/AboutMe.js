@@ -30,22 +30,15 @@ function AboutMe()
                         
 
                         <div className='container'>
-                        <div className='row btnPaddStyle'> 
-                                <div className='col-xs-2 btnStyle'>
-                                        {/* <div className=''> */}
+                                <div className='row btnPaddStyle'> 
+                                        <div className='col-xs-2 btnStyle'>
                                                 <a href={resume} className="buttonResume" download='Aishwarya_Patil_Resume'>Resumé</a> 
-                                        {/* </div> */}
-                                </div>
-                                <div className='col-xs-2 btnStyle'>
-                                        
-                                        {/* <div className='btnStyle'> */}
+                                        </div>
+                                        <div className='col-xs-2 btnStyle'>        
                                                 <a href="/Projects" className="buttonResume" >Projects</a> 
-                                        {/* </div> */}
-                                
-                
+                                        </div>
+                                        
                                 </div>
-                                      
-                        </div>
 
                         </div>
    
