@@ -1,28 +1,13 @@
 .aboutStyle {
-    /* display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-    margin-right: 100px;*/
     margin-top: 100px;
-    /* background-color: pink; */
 }
 
-.container {
-    /* background-color: pink; */
-}
 
 .btnPaddStyle {
     padding-top: 5%;
     padding-bottom: 5%; 
 }
 
-.contentContainer {
-    /* display: flex;
-    flex: 2;
-    padding-right: 50px;
-    flex-direction: column; */
-
-}
 
 .h3textabout {
     font-family: 'Raleway';
@@ -41,16 +26,9 @@
 
 
 .imageContainer{
-    /* display: flex;
-    flex: 1; */
     text-align: center;
-    /* padding: 5%; */
 }
 
-.imageStyle{
-    /* width: auto;
-    height: 500; */
-}
 
 .linkStyle1 {
     text-decoration: none;
@@ -74,9 +52,6 @@
 
 .btnContainer {
     padding-bottom: 10%;
-    /* display: flex;
-    flex-direction: row; */
-    /* justify-content: center; */
 }
 
 .btnStyle {
@@ -110,91 +85,3 @@
     
 }
 
-
-/* @media (max-width: 700px) { */
-/* @media (min-width: 576px) and (max-width: 768px) {
-    .aboutStyle {
-        display: flex;
-        flex-direction: column;
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-bottom: 10%;
-    }
-
-    .h3textabout {
-        font-family: 'Raleway';
-        font-size: 40px;
-        font-weight: bold;
-        color: #fdbc00;
-        flex: 1;
-    }
-
-    .resumeContainer {
-        flex-direction: column;
-
-    }
-
-    .imageContainer {
-        justify-content: center;
-    }
-
-    .btnContainer {
-        padding-bottom: 10%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-
-
-} */
-
-/* @media (min-width: 700px) and (max-width: 1024px) { */
-    /* @media (min-width: 768px) and (max-width: 1024px) {
-    .aboutStyle {
-        display: flex;
-        flex-direction: row;
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-top: 100px;
-    }
-
-    .h3textabout {
-        font-family: 'Raleway';
-        font-size: 40px;
-        font-weight: bold;
-        color: #fdbc00;
-        flex: 1;
-    }
-
-    .resumeContainer {
-        flex-direction: column;
-
-    }
-
-    .imageContainer {
-        justify-content: center;
-    }
-
-    .btnContainer {
-        padding-bottom: 10%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-        
-    }
-
-@media (min-width: 1500px) {
-
-    .aboutStyle {
-        display: flex;
-        flex-direction: row;
-        margin-left: 150px;
-        margin-right: 150px;
-        margin-top: 100px;
-        padding-top: 15%;
-
-    }
-
-} */
